@@ -7,7 +7,7 @@
   <meta name="description" content="Book barber appointments by text with Muzamil Suliman in Hayward / Bay Area, CA. Text START to +1 (510) 571-4894." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./site.css" />
 </head>
 <body>
@@ -15,8 +15,10 @@
     <header class="topnav">
       <a class="brand-mark" href="./index.html">Muzamil Suliman</a>
       <nav class="nav-links" aria-label="Primary">
-        <a href="#book">Book by text</a>
+        <a href="#about">About</a>
+        <a href="#how">How it works</a>
         <a href="#services">Services</a>
+        <a href="#book">Book by text</a>
         <a href="#contact">Contact</a>
         <a href="./opt-in.html">SMS opt-in</a>
       </nav>
@@ -24,23 +26,33 @@
 
     <main>
       <section class="hero">
-        <h1>Barber appointments by text</h1>
+        <p class="eyebrow">Barber · Hayward / Bay Area</p>
+        <h1>Appointments by text — simple, private, on your phone</h1>
         <p class="lede">
-          Muzamil Suliman (sole proprietor) runs an SMS appointment booking program for haircut
-          scheduling in Hayward and the Bay Area, California. Clients text the shop number to check
-          openings, book, confirm, get reminders, reschedule, or cancel.
+          <strong style="color: var(--ink);">Muzamil Suliman</strong> (sole proprietor) runs a text-message
+          booking program for haircuts in Hayward and the Bay Area, California. Clients message the shop
+          number to check openings, book a cut, confirm, get reminders, reschedule, or cancel — no app
+          download required.
         </p>
+        <div class="hero-meta" aria-label="Quick facts">
+          <span class="chip"><em>SMS</em> +1 (510) 571-4894</span>
+          <span class="chip"><em>Hours</em> Tue–Sat · 9 AM–6 PM PT</span>
+          <span class="chip"><em>Area</em> Hayward / Bay Area, CA</span>
+        </div>
       </section>
 
       <section class="cta-panel" id="book">
-        <h2>How to book (SMS Call to Action)</h2>
+        <h2>Book by text (SMS Call to Action)</h2>
         <p>Text <span class="pill">START</span> to</p>
-        <p class="number">+1 (510) 571-4894</p>
-        <p style="color: var(--muted); margin: 0;">
-          That opts you in to recurring appointment booking texts from <strong style="color: var(--ink);">Muzamil Suliman</strong>.
-          Message frequency varies. Message and data rates may apply. Reply STOP to cancel. Reply HELP for help.
+        <p class="number"><a href="sms:+15105714894&body=START">+1 (510) 571-4894</a></p>
+        <p class="cta-fine">
+          That opts you in to recurring appointment booking texts from
+          <strong style="color: var(--ink);">Muzamil Suliman</strong>.
+          Message frequency varies. Message and data rates may apply.
+          Reply <strong style="color: var(--ink);">STOP</strong> to cancel.
+          Reply <strong style="color: var(--ink);">HELP</strong> for help.
         </p>
-        <p style="margin: 0.85rem 0 0; color: var(--muted);">
+        <p class="cta-links">
           Full disclosures:
           <a href="./opt-in.html">SMS Opt-In / CTA</a> ·
           <a href="./privacy.html">Privacy Policy</a> ·
@@ -48,38 +60,121 @@
         </p>
       </section>
 
-      <section class="section" id="services">
-        <h2>What this messaging program covers</h2>
-        <ul>
-          <li>Availability and booking for haircuts / barber appointments</li>
-          <li>Confirmations and reminders for upcoming appointments</li>
-          <li>Reschedule and cancellation customer-care messages</li>
-        </ul>
+      <section class="section" id="about">
+        <h2>About this shop program</h2>
         <p>
-          These are transactional customer-care texts about your appointments — not marketing blasts
-          or third-party offers.
+          This is a small, appointment-only barber messaging program — not a marketing blast list.
+          After you opt in, you text the same number to manage your bookings. Messages are
+          transactional customer-care texts about <em>your</em> appointments.
+        </p>
+        <p>
+          Who it’s for: clients in Hayward and the wider Bay Area who want to schedule a cut by SMS,
+          get a clear confirmation, and receive a reminder before they come in.
         </p>
       </section>
 
+      <section class="section" id="features">
+        <h2>What you can do over SMS</h2>
+        <div class="feature-grid">
+          <div class="feature">
+            <strong>Check openings</strong>
+            <span>Ask what’s free on a day or time that works for you.</span>
+          </div>
+          <div class="feature">
+            <strong>Book</strong>
+            <span>Reserve a slot for the cut type you want.</span>
+          </div>
+          <div class="feature">
+            <strong>Confirm</strong>
+            <span>Get a clear yes on the time once it’s set.</span>
+          </div>
+          <div class="feature">
+            <strong>Reminders</strong>
+            <span>Receive a heads-up before your appointment.</span>
+          </div>
+          <div class="feature">
+            <strong>Reschedule</strong>
+            <span>Move your booking if plans change.</span>
+          </div>
+          <div class="feature">
+            <strong>Cancel</strong>
+            <span>Cancel over text when you can’t make it.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <h2>How SMS booking works</h2>
+        <ol class="steps">
+          <li>
+            <strong>Opt in</strong>
+            Text <span class="pill">START</span> to +1 (510) 571-4894. You’ll get a short confirmation that you’re opted in.
+          </li>
+          <li>
+            <strong>Ask for a time</strong>
+            Reply with the day, time window, and cut type you want (for example: Saturday afternoon fade).
+          </li>
+          <li>
+            <strong>Get booked</strong>
+            The program checks openings and confirms your appointment by text.
+          </li>
+          <li>
+            <strong>Stay updated</strong>
+            You’ll get confirmation and reminder messages. Text anytime to reschedule or cancel.
+            Reply STOP if you no longer want messages.
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="services">
+        <h2>Cut types &amp; example services</h2>
+        <p>
+          Common requests the shop books over text (ask for what you need — these are examples, not a full menu):
+        </p>
+        <div class="service-tags" aria-label="Example services">
+          <span class="tag">Cut</span>
+          <span class="tag">Fade</span>
+          <span class="tag">Cut + beard</span>
+          <span class="tag">Kids cut</span>
+          <span class="tag">Lineup</span>
+          <span class="tag">Design</span>
+        </div>
+        <p class="note">Pricing is confirmed with you when you book — this site does not list dollar amounts.</p>
+
+        <div class="hours-box" id="hours">
+          <strong>Typical shop hours</strong>
+          <p><strong style="color: var(--ink); text-transform: none; letter-spacing: 0; font-size: 1rem;">Tuesday–Saturday · 9:00 AM – 6:00 PM</strong> (Pacific Time)</p>
+          <p>Closed Sunday and Monday. Exact openings can vary — text the number above to check what’s free.</p>
+        </div>
+      </section>
+
       <section class="section" id="contact">
-        <h2>Business contact</h2>
-        <div class="meta-grid">
-          <div class="card">
-            <strong>Business name</strong>
-            <span>Muzamil Suliman (sole proprietor)</span>
+        <h2>Contact</h2>
+        <p>Questions about booking or this messaging program? Reach out here:</p>
+        <div class="contact-panel">
+          <div class="meta-grid">
+            <div class="card">
+              <strong>Business name</strong>
+              <span>Muzamil Suliman (sole proprietor)</span>
+            </div>
+            <div class="card">
+              <strong>Program phone (SMS)</strong>
+              <span><a href="sms:+15105714894">+1 (510) 571-4894</a></span>
+            </div>
+            <div class="card">
+              <strong>Email</strong>
+              <span><a href="mailto:sulimanmuzamil@gmail.com">sulimanmuzamil@gmail.com</a></span>
+            </div>
+            <div class="card">
+              <strong>Service area</strong>
+              <span>Hayward / Bay Area, California, USA</span>
+            </div>
           </div>
-          <div class="card">
-            <strong>Program phone (SMS)</strong>
-            <span>+1 (510) 571-4894</span>
-          </div>
-          <div class="card">
-            <strong>Email</strong>
-            <span><a href="mailto:sulimanmuzamil@gmail.com">sulimanmuzamil@gmail.com</a></span>
-          </div>
-          <div class="card">
-            <strong>Service area</strong>
-            <span>Hayward / Bay Area, California, USA</span>
-          </div>
+          <p class="note">
+            <strong style="color: var(--ink);">Mobile privacy:</strong> We do not share, sell, or provide your
+            mobile phone number or messaging consent / opt-in data to third parties or affiliates for marketing
+            or promotional purposes.
+          </p>
         </div>
       </section>
     </main>
