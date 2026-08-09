@@ -1,14 +1,14 @@
 :root {
-  --bg: #12100e;
-  --bg-elev: #1a1613;
-  --bg-soft: #221c18;
-  --ink: #f5eee6;
-  --muted: #b0a193;
-  --brass: #d0b48a;
-  --brass-deep: #a8885e;
-  --teal: #2faba0;
-  --teal-deep: #1f7a72;
-  --line: rgba(245, 238, 230, 0.11);
+  --bg: #161210;
+  --bg-elev: #211c18;
+  --bg-soft: #2a231e;
+  --ink: #fff8f0;
+  --muted: #c9b9a8;
+  --brass: #e0c49a;
+  --brass-deep: #b89468;
+  --teal: #3bb8ac;
+  --teal-deep: #21867c;
+  --line: rgba(255, 248, 240, 0.14);
   --glow-teal: rgba(47, 171, 160, 0.18);
   --glow-brass: rgba(208, 180, 138, 0.14);
   --radius: 16px;
