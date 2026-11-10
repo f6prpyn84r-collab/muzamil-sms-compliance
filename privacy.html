@@ -73,14 +73,17 @@
     <p>
       The Chairline iOS / Mac app is a private shop inbox for barbers and operators. It connects to the
       shop’s Chairline server to show SMS threads, calendar bookings, and shop contacts.
+      It does not create consumer Apple ID accounts; staff unlock with a shop inbox secret.
     </p>
     <ul>
-      <li><strong>On device:</strong> unlock secret and session token (stored in Keychain or a protected local file on Mac/Simulator).</li>
-      <li><strong>On the shop server:</strong> message content, phone numbers, appointment details, and shop contact names you save.</li>
-      <li><strong>Device Contacts:</strong> read on-device so you can pick a client by name. We do not upload your full address book. If you message or save a contact into the shop list, that name and number are stored on the shop server for booking.</li>
+      <li><strong>On device:</strong> unlock secret and session token (Keychain on iPhone; protected local files under Application Support on Mac/Simulator). Optional shop base URL may be cached locally.</li>
+      <li><strong>On the shop server:</strong> message content, phone numbers, appointment details, client notes/memory you save, and shop contact names.</li>
+      <li><strong>Device Contacts:</strong> optional. Read on-device only after you allow access / tap Load Contacts, so you can pick a client by name. You can type a phone number instead. We do not upload your full address book. If you message or save a contact into the shop list, that name and number are stored on the shop server for booking.</li>
+      <li><strong>Third parties:</strong> SMS delivery uses the shop’s messaging provider (for example Twilio). No advertising or analytics SDKs in the app. Third parties that process data for the service are required to protect it consistent with this policy.</li>
       <li><strong>No tracking / ads:</strong> Chairline does not use App Tracking Transparency identifiers, does not sell personal data, and does not use data to track you across other companies’ apps or websites.</li>
-      <li><strong>Delete local data:</strong> in the app open Account → Privacy &amp; Legal → Clear local session &amp; secret.</li>
-      <li><strong>Delete shop / SMS data:</strong> remove bookings or contacts in the app where available, or ask the operator to purge the shop database. SMS end-users may text <strong>STOP</strong> to opt out of booking texts.</li>
+      <li><strong>Retention:</strong> shop server records are kept while needed for booking and shop operations; operators may purge the shop database. Local unlock credentials remain until you clear them or reinstall.</li>
+      <li><strong>Delete local data:</strong> in the app open Account → Privacy &amp; Legal → Clear local session &amp; secret (also linked from the unlock screen Privacy Policy).</li>
+      <li><strong>Delete shop / SMS data:</strong> remove contacts or calendar blocks in the app, ask the operator to purge the shop database, or email <a href="mailto:sulimanmuzamil@gmail.com">sulimanmuzamil@gmail.com</a>. SMS end-users may text <strong>STOP</strong> to opt out of booking texts.</li>
     </ul>
 
     <h2>Opt-out and help</h2>
